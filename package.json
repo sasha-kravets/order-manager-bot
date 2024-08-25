@@ -1,0 +1,20 @@
+{
+  "name": "order-manager-bot",
+  "version": "1.0.0",
+  "description": "The bot receives data from the form on the website, after processing by the manager, it sends it to the Google Sheet and database.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Kravets",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
